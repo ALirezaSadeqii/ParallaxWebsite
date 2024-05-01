@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0f1429ff;
+}
+.nav-content {
+  position: relative;
+  z-index: 9;
+  background-color: white;
+  opacity: 50%;
+  width: 100%;
+}
+.nav-content:hover {
+  opacity: 100%;
+}
+.animation {
+  z-index: 8;
+}
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.4s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav .nav-content {
+  height: 75px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+nav .logo {
+  font-size: 18px;
+  margin-left: 2%;
+  color: #0f1429ff;
+  cursor: pointer;
+}
+
+.nav-content .nav-links {
+  display: flex;
+}
+.nav-content .nav-links li {
+  list-style: none;
+  margin: 0 8px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #0f1429ff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+.nav-links li a:hover {
   color: white;
+  padding: 10px 20px;
+  border-radius: 26px;
+  background-color: #0f1429ff;
+}
+nav.sticky .nav-links li a {
+  color: #fff;
+  transition: all 0.4s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.home {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 6px;
+  color: #4070f4;
+}
+.text {
+  text-align: justify;
+  padding: 40px 80px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#textblock {
+  background-color: #0f1429ff;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+  margin-bottom: 30%;
+  z-index: 10;
+}
+
+#textblock-title {
+  color: #e0ba9fff;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #e0ba9fff;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #e0ba9fff;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #e0ba9fff;
+  font-size: 15px;
+  font-weight: 600;
 }
