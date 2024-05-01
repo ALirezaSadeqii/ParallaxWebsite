@@ -105,19 +105,6 @@ h2 {
   font-size: 20px;
 }
 
-#textblock-footer {
-  color: #e0ba9fff;
-  font-size: 15px;
-  font-weight: 400;
-  position: fixed;
-  width: 100%;
-  bottom: 0px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 #textblock-devsense {
   text-decoration: none;
   color: #e0ba9fff;

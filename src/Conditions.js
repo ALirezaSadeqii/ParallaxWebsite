@@ -47,10 +47,6 @@ function Conditions() {
           from repetition, injected humour, or non-characteristic words etc.
         </p>
       </div>
-
-      <footer id="textblock-footer">
-        Demo Created With 🧡 By Alireza Sadeghi;
-      </footer>
     </div>
   );
 }
