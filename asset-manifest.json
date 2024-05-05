@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Scroll-Parallax-Website/static/css/main.269fb2eb.css",
+    "main.css": "/Scroll-Parallax-Website/static/css/main.308745ee.css",
     "main.js": "/Scroll-Parallax-Website/static/js/main.f292e779.js",
     "static/js/453.97127cc3.chunk.js": "/Scroll-Parallax-Website/static/js/453.97127cc3.chunk.js",
     "static/media/mountain3.png": "/Scroll-Parallax-Website/static/media/mountain3.d0efff19bfac2d779d81.png",
@@ -8,12 +8,12 @@
     "static/media/house1.png": "/Scroll-Parallax-Website/static/media/house1.2ac5ab92496c8667a392.png",
     "static/media/mountain1.png": "/Scroll-Parallax-Website/static/media/mountain1.c0e6db621d1ed5406476.png",
     "index.html": "/Scroll-Parallax-Website/index.html",
-    "main.269fb2eb.css.map": "/Scroll-Parallax-Website/static/css/main.269fb2eb.css.map",
+    "main.308745ee.css.map": "/Scroll-Parallax-Website/static/css/main.308745ee.css.map",
     "main.f292e779.js.map": "/Scroll-Parallax-Website/static/js/main.f292e779.js.map",
     "453.97127cc3.chunk.js.map": "/Scroll-Parallax-Website/static/js/453.97127cc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.269fb2eb.css",
+    "static/css/main.308745ee.css",
     "static/js/main.f292e779.js"
   ]
 }
